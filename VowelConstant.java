@@ -4,21 +4,21 @@ public class VowelConstant {
     //program to find out Vowel or Constant
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
-       // System.out.println("Enter Character : ");
-        String data = "a";
-        if(data == "a"){
+       System.out.print("Enter Character : ");
+        char data = value.next().charAt(0);
+        if(data == 'a'){
             System.out.println("Character " + data+ " is vowel." );
         }
-        else if(data == "e"){
+        else if(data == 'e'){
             System.out.println("Character " + data+ " is vowel." );
         }
-        else if(data== "i"){
+        else if(data== 'i'){
             System.out.println("Character " + data+ " is vowel." );
         }
-        else if(data== "o"){
+        else if(data== 'o'){
             System.out.println("Character " + data+ " is vowel." );
         }
-        else if(data== "u"){
+        else if(data== 'u'){
             System.out.println("Character " + data+ " is vowel." );
         }
         else {

@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class DaysWithNumber {
     public static void main(String[] args) {
-        int day = 9;
+        Scanner num1=new Scanner(System.in);
+        System.out.print("Enter any number from 1 to 7 to find out day :");
+        int day = num1.nextInt();
 
         if (day ==1){
             System.out.println("1 = Monday");
